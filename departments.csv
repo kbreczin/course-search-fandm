@@ -1,47 +1,719 @@
-AMS,American Studies
-AFS,Africana Studies
-HIS,History
-FLM,Film and Media
-CHM,Chemistry
-NSP,Natural Science in Perspective
-BIO,Biology
-BOS,"Business, Orgs and Society"
-SPA,Spanish
-ENG,English
-WGS,"Women's, Gender and Sexuality"
-GOV,Government
-CNX,Connections
-RUS,Russian
-GST,German Studies
-JST,Judaic Studies
-CLS,Classics
-MAT,Mathematics
-CPS,Computer Science
-PHY,Physics
-ECO,Economics
-PUB,Public Policy
-ENE,Earth and Environment
-PSY,Psychology
-ANT,Anthropology
-TND,Theatre and Dance
-SOC,Sociology
-MUS,Music
-JPN,Japanese
-PHI,Philosophy
-ART,Art and Art History
-SPM,Sci and Phil Studies of Mind
-CHN,Chinese
-LAT,Latin
-GRK,Greek
-LIT,Comparative Literary Studies
-GER,German
-FRN,French
-ARB,Arabic
-ITA,Italian Studies
-STS,"Science, Tech and Society"
-LIN,Linguistics
-RST,Religious Studies
-IST,International Studies
-AST,Astronomy
-PBH,Public Health
-INT,Interdepartmental
+AMS,272,American Studies,15001
+AFS,272,Africana Studies,15002
+HIS,272,History,15003
+FLM,440,Film and Media,15004
+CHM,376,Chemistry,15006
+NSP,109,Natural Science in Perspective,15007
+NSP,174,Natural Science in Perspective,15008
+BIO,210,Biology,15009
+BIO,343,Biology,15010
+BOS,360,"Business, Orgs and Society",15011
+BOS,341,"Business, Orgs and Society",15012
+BOS,480,"Business, Orgs and Society",15013
+SPA,201,Spanish,15015
+SPA,221,Spanish,15016
+ENG,225,English,15017
+ENG,225,English,15018
+ENG,203,English,15019
+WGS,210,"Women's, Gender and Sexuality",15020
+GOV,100,Government,15021
+GOV,120,Government,15022
+GOV,200,Government,15023
+GOV,377,Government,15024
+CNX,286,Connections,15025
+HIS,137,History,15026
+HIS,126,History,15027
+RUS,126,Russian,15028
+HIS,255,History,15029
+GST,255,German Studies,15030
+HIS,370,History,15031
+JST,370,Judaic Studies,15032
+CLS,271,Classics,15033
+MAT,109,Mathematics,15035
+MAT,110,Mathematics,15036
+CPS,222,Computer Science,15037
+PHY,111,Physics,15038
+ECO,135,Economics,15040
+ECO,200,Economics,15041
+ECO,240,Economics,15042
+PUB,240,Public Policy,15043
+ENE,240,Earth and Environment,15044
+ECO,335,Economics,15045
+PSY,100,Psychology,15046
+ANT,273,Anthropology,15047
+PSY,308,Psychology,15048
+TND,240,Theatre and Dance,15049
+SOC,100,Sociology,15050
+SOC,220,Sociology,15051
+MUS,102,Music,15052
+MUS,222,Music,15053
+JPN,271,Japanese,15054
+PHI,122,Philosophy,15055
+PHI,363,Philosophy,15057
+ENG,265,English,15058
+PHI,236,Philosophy,15059
+ENE,360,Earth and Environment,15060
+BIO,360,Biology,15061
+ART,265,Art and Art History,15062
+AMS,275,American Studies,15063
+TND,228,Theatre and Dance,15064
+CNX,235,Connections,15065
+SPA,102,Spanish,15066
+CNX,230,Connections,15067
+CNX,271,Connections,15068
+CNX,266,Connections,15069
+CNX,148,Connections,15070
+FLM,440,Film and Media,15071
+PSY,460,Psychology,15072
+SPM,499,Sci and Phil Studies of Mind,15073
+CNX,225,Connections,20001
+CHN,102,Chinese,20002
+CHN,102,Chinese,20003
+CHN,102,Chinese,20004
+CHN,102,Chinese,20005
+LAT,102,Latin,20006
+GRK,102,Greek,20007
+CLS,230,Classics,20008
+CHN,202,Chinese,20009
+CHN,235,Chinese,20010
+CHN,302,Chinese,20011
+JPN,102,Japanese,20012
+JPN,102,Japanese,20013
+JPN,102,Japanese,20014
+JPN,102,Japanese,20015
+JPN,202,Japanese,20016
+JPN,302,Japanese,20017
+JPN,102,Japanese,20018
+JPN,202,Japanese,20019
+JPN,221,Japanese,20021
+RUS,102,Russian,20022
+RUS,102,Russian,20023
+RUS,102,Russian,20024
+RUS,140,Russian,20025
+RUS,217,Russian,20026
+LIT,217,Comparative Literary Studies,20027
+RUS,202,Russian,20028
+RUS,202,Russian,20029
+RUS,202,Russian,20030
+GER,102,German,20031
+GER,102,German,20032
+GER,102,German,20033
+GER,302,German,20035
+GER,202,German,20036
+GER,202,German,20037
+GER,202,German,20038
+GER,451,German,20039
+NSP,163,Natural Science in Perspective,20040
+CHM,111,Chemistry,20041
+CHM,111,Chemistry,20042
+CHM,112,Chemistry,20043
+CHM,112,Chemistry,20044
+CHM,112,Chemistry,20045
+CHM,112,Chemistry,20046
+CHM,112,Chemistry,20047
+CHM,112,Chemistry,20048
+CHM,212,Chemistry,20049
+CHM,212,Chemistry,20050
+CHM,212,Chemistry,20051
+CHM,221,Chemistry,20052
+CHM,322,Chemistry,20053
+CHM,451,Chemistry,20054
+CHM,451,Chemistry,20055
+CHM,471,Chemistry,20056
+LIT,101,Comparative Literary Studies,20057
+FRN,102,French,20058
+FRN,201,French,20059
+FRN,201,French,20060
+FRN,201,French,20061
+FRN,241,French,20062
+FRN,371,French,20063
+ARB,102,Arabic,20064
+FRN,102,French,20065
+FRN,201,French,20066
+FRN,201,French,20067
+FRN,201,French,20068
+FRN,202,French,20069
+FRN,202,French,20070
+FRN,202,French,20071
+FRN,242,French,20072
+FRN,261,French,20073
+ARB,202,Arabic,20074
+ARB,301,Arabic,20075
+CNX,200,Connections,20076
+ITA,102,Italian Studies,20077
+ITA,102,Italian Studies,20078
+ITA,102,Italian Studies,20079
+ITA,376,Italian Studies,20080
+FLM,376,Film and Media,20081
+ITA,202,Italian Studies,20082
+ITA,373,Italian Studies,20088
+ITA,410,Italian Studies,20089
+BIO,210,Biology,20090
+BIO,210,Biology,20091
+BIO,110,Biology,20092
+BIO,110,Biology,20093
+BIO,110,Biology,20094
+BIO,110,Biology,20095
+BIO,110,Biology,20096
+BIO,110,Biology,20097
+BIO,110,Biology,20098
+BIO,110,Biology,20100
+BIO,110,Biology,20101
+BIO,230,Biology,20102
+BIO,230,Biology,20103
+BIO,230,Biology,20104
+BIO,230,Biology,20105
+BIO,240,Biology,20106
+BIO,240,Biology,20107
+BIO,240,Biology,20108
+BIO,322,Biology,20109
+BIO,334,Biology,20110
+BIO,334,Biology,20111
+BIO,374,Biology,20113
+BIO,372,Biology,20115
+BOS,224,"Business, Orgs and Society",20116
+BOS,224,"Business, Orgs and Society",20117
+BOS,250,"Business, Orgs and Society",20118
+BOS,250,"Business, Orgs and Society",20119
+BOS,324,"Business, Orgs and Society",20120
+BOS,324,"Business, Orgs and Society",20121
+BOS,325,"Business, Orgs and Society",20122
+BOS,315,"Business, Orgs and Society",20123
+BOS,315,"Business, Orgs and Society",20124
+BOS,332,"Business, Orgs and Society",20125
+BOS,332,"Business, Orgs and Society",20127
+BOS,335,"Business, Orgs and Society",20128
+BOS,341,"Business, Orgs and Society",20129
+BOS,341,"Business, Orgs and Society",20130
+BOS,350,"Business, Orgs and Society",20131
+BOS,350,"Business, Orgs and Society",20132
+JST,102,Judaic Studies,20133
+JST,102,Judaic Studies,20134
+JST,102,Judaic Studies,20135
+BOS,360,"Business, Orgs and Society",20136
+JST,301,Judaic Studies,20137
+BOS,360,"Business, Orgs and Society",20138
+JST,202,Judaic Studies,20139
+BOS,363,"Business, Orgs and Society",20140
+BOS,363,"Business, Orgs and Society",20141
+BOS,480,"Business, Orgs and Society",20142
+CNX,295,Connections,20143
+BOS,480,"Business, Orgs and Society",20144
+BOS,480,"Business, Orgs and Society",20145
+BOS,200,"Business, Orgs and Society",20146
+BOS,200,"Business, Orgs and Society",20147
+BOS,200,"Business, Orgs and Society",20148
+BOS,200,"Business, Orgs and Society",20149
+BOS,200,"Business, Orgs and Society",20150
+SPA,102,Spanish,20151
+SPA,102,Spanish,20153
+SPA,201,Spanish,20155
+SPA,201,Spanish,20156
+SPA,201,Spanish,20157
+SPA,201,Spanish,20158
+SPA,201,Spanish,20159
+SPA,202,Spanish,20160
+SPA,202,Spanish,20161
+SPA,221,Spanish,20162
+CNX,283,Connections,20163
+CNX,283,Connections,20164
+CNX,247,Connections,20165
+CNX,223,Connections,20166
+SPA,222,Spanish,20169
+ENG,384,English,20170
+SPA,222,Spanish,20171
+ENG,257,English,20172
+SPA,321,Spanish,20173
+AFS,257,Africana Studies,20174
+AMS,257,American Studies,20175
+WGS,257,"Women's, Gender and Sexuality",20176
+ENG,480,English,20177
+ENG,480,English,20178
+ENG,315,English,20179
+ENG,225,English,20180
+ENG,456,English,20181
+ENG,226,English,20182
+ENG,226,English,20183
+ENG,173,English,20184
+ENG,467,English,20186
+ENG,225,English,20187
+SPA,374,Spanish,20188
+ENG,225,English,20189
+ENG,374,English,20190
+ENG,201,English,20191
+LIT,203,Comparative Literary Studies,20192
+ENG,206,English,20193
+ENG,381,English,20194
+ENG,260,English,20195
+ENE,260,Earth and Environment,20196
+SPA,471,Spanish,20197
+STS,260,"Science, Tech and Society",20198
+SPA,335,Spanish,20199
+SPA,478,Spanish,20200
+LIN,275,Linguistics,20201
+WGS,210,"Women's, Gender and Sexuality",20202
+WGS,371,"Women's, Gender and Sexuality",20203
+AFS,371,Africana Studies,20204
+CNX,215,Connections,20205
+ENE,114,Earth and Environment,20206
+ENE,117,Earth and Environment,20207
+STS,117,"Science, Tech and Society",20208
+ENE,216,Earth and Environment,20209
+STS,216,"Science, Tech and Society",20210
+ENE,226,Earth and Environment,20211
+ENE,226,Earth and Environment,20212
+ENE,226,Earth and Environment,20213
+ENE,231,Earth and Environment,20214
+ENE,344,Earth and Environment,20215
+ENE,454,Earth and Environment,20218
+ENE,117,Earth and Environment,20219
+STS,117,"Science, Tech and Society",20220
+ENE,114,Earth and Environment,20221
+ENE,314,Earth and Environment,20222
+STS,314,"Science, Tech and Society",20223
+GOV,374,Government,20224
+STS,383,"Science, Tech and Society",20225
+HIS,383,History,20226
+WGS,383,"Women's, Gender and Sexuality",20227
+ENE,324,Earth and Environment,20228
+ENE,454,Earth and Environment,20230
+ENE,480,Earth and Environment,20231
+NSP,365,Natural Science in Perspective,20232
+CNX,259,Connections,20234
+CNX,259,Connections,20235
+GOV,100,Government,20236
+GOV,100,Government,20237
+GOV,100,Government,20238
+GOV,120,Government,20239
+GOV,120,Government,20240
+GOV,120,Government,20241
+GOV,130,Government,20242
+GOV,130,Government,20243
+GOV,241,Government,20244
+GOV,241,Government,20245
+GOV,250,Government,20246
+GOV,250,Government,20247
+GOV,250,Government,20248
+GOV,314,Government,20249
+GOV,315,Government,20250
+GOV,352,Government,20253
+GOV,352,Government,20254
+GOV,371,Government,20255
+GOV,372,Government,20256
+GOV,373,Government,20257
+GOV,420,Government,20258
+GOV,473,Government,20259
+GOV,474,Government,20260
+GOV,474,Government,20261
+CNX,201,Connections,20262
+AMS,239,American Studies,20263
+AFS,239,Africana Studies,20264
+MUS,239,Music,20265
+WGS,239,"Women's, Gender and Sexuality",20266
+AMS,350,American Studies,20267
+CLS,113,Classics,20268
+HIS,113,History,20269
+CLS,371,Classics,20270
+LAT,202,Latin,20271
+CLS,231,Classics,20272
+LIT,231,Comparative Literary Studies,20273
+CLS,241,Classics,20274
+STS,241,"Science, Tech and Society",20275
+TND,374,Theatre and Dance,20276
+AMS,115,American Studies,20277
+WGS,115,"Women's, Gender and Sexuality",20278
+AMS,354,American Studies,20282
+AFS,354,Africana Studies,20283
+FLM,354,Film and Media,20285
+WGS,354,"Women's, Gender and Sexuality",20286
+ANT,100,Anthropology,20287
+ANT,100,Anthropology,20288
+ANT,102,Anthropology,20289
+AMS,100,American Studies,20290
+AMS,279,American Studies,20292
+ANT,250,Anthropology,20293
+AFS,250,Africana Studies,20294
+RST,250,Religious Studies,20295
+WGS,250,"Women's, Gender and Sexuality",20296
+CNX,214,Connections,20297
+ANT,259,Anthropology,20298
+ART,103,Art and Art History,20299
+ART,103,Art and Art History,20300
+ART,105,Art and Art History,20301
+ART,112,Art and Art History,20302
+ART,114,Art and Art History,20303
+CNX,220,Connections,20304
+CNX,220,Connections,20305
+HIS,115,History,20306
+HIS,128,History,20307
+HIS,152,History,20308
+HIS,372,History,20309
+ART,114,Art and Art History,20310
+HIS,260,History,20311
+ART,116,Art and Art History,20313
+ART,121,Art and Art History,20314
+ART,142,Art and Art History,20316
+HIS,334,History,20317
+AFS,334,Africana Studies,20318
+FLM,110,Film and Media,20319
+HIS,400,History,20320
+ART,231,Art and Art History,20321
+HIS,233,History,20322
+AFS,233,Africana Studies,20323
+ITA,231,Italian Studies,20324
+HIS,274,History,20325
+AMS,274,American Studies,20326
+FLM,220,Film and Media,20327
+FLM,220,Film and Media,20328
+ART,220,Art and Art History,20329
+ENE,220,Earth and Environment,20330
+ART,245,Art and Art History,20331
+ART,272,Art and Art History,20332
+ART,271,Art and Art History,20333
+ART,342,Art and Art History,20334
+HIS,352,History,20335
+FLM,311,Film and Media,20336
+HIS,122,History,20337
+HIS,319,History,20338
+GOV,319,Government,20339
+IST,319,International Studies,20341
+RUS,319,Russian,20342
+FLM,341,Film and Media,20343
+HIS,128,History,20344
+HIS,274,History,20345
+AMS,274,American Studies,20346
+ART,371,Art and Art History,20347
+HIS,117,History,20348
+HIS,153,History,20349
+JST,153,Judaic Studies,20350
+ART,462,Art and Art History,20351
+RST,153,Religious Studies,20352
+HIS,132,History,20353
+ART,462,Art and Art History,20354
+HIS,472,History,20355
+AFS,472,Africana Studies,20356
+IST,200,International Studies,20357
+CNX,206,Connections,20358
+CNX,206,Connections,20359
+MAT,109,Mathematics,20360
+MAT,109,Mathematics,20361
+MAT,109,Mathematics,20362
+MAT,110,Mathematics,20363
+MAT,110,Mathematics,20364
+MAT,110,Mathematics,20365
+MAT,111,Mathematics,20366
+MAT,111,Mathematics,20367
+MAT,211,Mathematics,20368
+MAT,211,Mathematics,20369
+MAT,216,Mathematics,20370
+MAT,216,Mathematics,20371
+MAT,229,Mathematics,20372
+MAT,229,Mathematics,20373
+MAT,331,Mathematics,20374
+MAT,331,Mathematics,20375
+MAT,272,Mathematics,20378
+MAT,272,Mathematics,20379
+ANT,380,Anthropology,20382
+ANT,100,Anthropology,20383
+ANT,100,Anthropology,20384
+ANT,100,Anthropology,20385
+ANT,102,Anthropology,20386
+ANT,257,Anthropology,20387
+PHY,111,Physics,20388
+PHY,111,Physics,20389
+PHY,112,Physics,20390
+PHY,112,Physics,20392
+PHY,112,Physics,20393
+PHY,112,Physics,20394
+ANT,345,Anthropology,20395
+PHY,112,Physics,20396
+ANT,355,Anthropology,20397
+PHY,226,Physics,20398
+AST,121,Astronomy,20400
+WGS,355,"Women's, Gender and Sexuality",20401
+PHY,222,Physics,20402
+PHY,432,Physics,20403
+AST,322,Astronomy,20404
+CNX,284,Connections,20405
+NSP,137,Natural Science in Perspective,20406
+CNX,237,Connections,20407
+ECO,100,Economics,20408
+ECO,100,Economics,20409
+ECO,103,Economics,20410
+ECO,103,Economics,20411
+ECO,201,Economics,20412
+ECO,203,Economics,20413
+ECO,210,Economics,20414
+ECO,230,Economics,20415
+ECO,325,Economics,20416
+ECO,100,Economics,20417
+ECO,100,Economics,20418
+ECO,103,Economics,20419
+ECO,103,Economics,20420
+ECO,135,Economics,20421
+ECO,200,Economics,20422
+ANT,272,Anthropology,20423
+PSY,100,Psychology,20424
+PSY,100,Psychology,20425
+PSY,100,Psychology,20426
+PSY,100,Psychology,20427
+PSY,100,Psychology,20429
+PSY,100,Psychology,20430
+CPS,111,Computer Science,20431
+CPS,111,Computer Science,20432
+CPS,112,Computer Science,20433
+CPS,112,Computer Science,20434
+CPS,261,Computer Science,20435
+CPS,337,Computer Science,20436
+CPS,363,Computer Science,20437
+CPS,242,Computer Science,20438
+ECO,201,Economics,20439
+ECO,203,Economics,20440
+ECO,310,Economics,20441
+RST,313,Religious Studies,20442
+AFS,313,Africana Studies,20443
+RST,112,Religious Studies,20444
+CNX,292,Connections,20445
+MUS,102,Music,20446
+MUS,100,Music,20447
+PSY,101,Psychology,20448
+PSY,230,Psychology,20449
+PSY,230,Psychology,20450
+PSY,230,Psychology,20451
+MUS,150,Music,20452
+PSY,230,Psychology,20453
+MUS,250,Music,20454
+PSY,302,Psychology,20455
+PSY,302,Psychology,20456
+MUS,151,Music,20457
+MUS,151,Music,20458
+MUS,152,Music,20459
+MUS,152,Music,20460
+MUS,153,Music,20461
+MUS,153,Music,20462
+MUS,156,Music,20465
+MUS,156,Music,20466
+MUS,157,Music,20467
+AFS,157,Africana Studies,20468
+MUS,157,Music,20469
+AFS,157,Africana Studies,20470
+MUS,223,Music,20471
+MUS,225,Music,20472
+PSY,305,Psychology,20473
+PSY,309,Psychology,20476
+PSY,311,Psychology,20477
+PSY,312,Psychology,20478
+PSY,371,Psychology,20480
+MUS,229,Music,20481
+MUS,231,Music,20482
+MUS,240,Music,20483
+MUS,250,Music,20484
+MUS,250,Music,20485
+PSY,453,Psychology,20486
+PSY,481,Psychology,20487
+PSY,483,Psychology,20488
+PSY,484,Psychology,20489
+PSY,486,Psychology,20490
+MUS,251,Music,20491
+SPM,100,Sci and Phil Studies of Mind,20492
+MUS,251,Music,20493
+MUS,252,Music,20494
+MUS,252,Music,20495
+JST,112,Judaic Studies,20496
+RST,167,Religious Studies,20499
+AMS,167,American Studies,20500
+RST,248,Religious Studies,20503
+TND,110,Theatre and Dance,20504
+LIT,110,Comparative Literary Studies,20505
+TND,121,Theatre and Dance,20506
+TND,186,Theatre and Dance,20507
+TND,201,Theatre and Dance,20508
+TND,201,Theatre and Dance,20509
+TND,219,Theatre and Dance,20510
+TND,225,Theatre and Dance,20511
+TND,227,Theatre and Dance,20512
+TND,244,Theatre and Dance,20514
+MUS,253,Music,20516
+MUS,253,Music,20517
+MUS,255,Music,20518
+TND,270,Theatre and Dance,20519
+MUS,255,Music,20520
+MUS,256,Music,20521
+MUS,256,Music,20522
+MUS,257,Music,20523
+TND,331,Theatre and Dance,20524
+TND,385,Theatre and Dance,20525
+MUS,257,Music,20526
+TND,385,Theatre and Dance,20527
+TND,386,Theatre and Dance,20528
+MUS,280,Music,20529
+MUS,280,Music,20530
+TND,283,Theatre and Dance,20531
+MUS,280,Music,20532
+MUS,280,Music,20533
+MUS,280,Music,20534
+MUS,280,Music,20535
+MUS,280,Music,20536
+MUS,280,Music,20537
+MUS,280,Music,20538
+MUS,280,Music,20539
+MUS,281,Music,20540
+MUS,281,Music,20541
+MUS,281,Music,20542
+MUS,281,Music,20543
+MUS,281,Music,20544
+MUS,281,Music,20545
+MUS,282,Music,20546
+MUS,282,Music,20547
+MUS,282,Music,20548
+MUS,282,Music,20549
+MUS,282,Music,20550
+MUS,282,Music,20551
+WGS,341,"Women's, Gender and Sexuality",20552
+MUS,282,Music,20553
+MUS,282,Music,20554
+MUS,283,Music,20555
+MUS,283,Music,20556
+MUS,283,Music,20557
+MUS,283,Music,20559
+MUS,284,Music,20560
+CNX,211,Connections,20561
+MUS,284,Music,20562
+MUS,284,Music,20563
+SOC,100,Sociology,20564
+MUS,284,Music,20565
+MUS,284,Music,20566
+MUS,284,Music,20567
+MUS,285,Music,20568
+SOC,100,Sociology,20569
+MUS,285,Music,20570
+SOC,100,Sociology,20571
+MUS,285,Music,20572
+MUS,285,Music,20573
+MUS,286,Music,20574
+MUS,286,Music,20576
+MUS,323,Music,20577
+MUS,340,Music,20578
+SOC,220,Sociology,20579
+MUS,352,Music,20580
+SOC,301,Sociology,20581
+MUS,352,Music,20582
+SOC,302,Sociology,20583
+MUS,353,Music,20584
+SOC,364,Sociology,20585
+MUS,353,Music,20586
+WGS,364,"Women's, Gender and Sexuality",20588
+MUS,452,Music,20589
+SOC,366,Sociology,20590
+MUS,452,Music,20591
+MUS,453,Music,20592
+AFS,366,Africana Studies,20593
+MUS,453,Music,20594
+PBH,366,Public Health,20595
+MUS,482,Music,20596
+MUS,482,Music,20597
+MUS,485,Music,20599
+MUS,485,Music,20600
+SOC,370,Sociology,20601
+PBH,370,Public Health,20602
+SOC,460,Sociology,20603
+WGS,460,"Women's, Gender and Sexuality",20604
+AFS,460,Africana Studies,20605
+SOC,475,Sociology,20606
+WGS,475,"Women's, Gender and Sexuality",20607
+WGS,272,"Women's, Gender and Sexuality",20608
+JPN,371,Japanese,20609
+CNX,277,Connections,20610
+CNX,277,Connections,20611
+PHI,100,Philosophy,20612
+PHI,250,Philosophy,20613
+PHI,271,Philosophy,20614
+PHI,319,Philosophy,20615
+PHI,321,Philosophy,20618
+PHI,172,Philosophy,20622
+WGS,172,"Women's, Gender and Sexuality",20623
+PHI,220,Philosophy,20624
+PHI,352,Philosophy,20625
+PBH,251,Public Health,20626
+PBH,354,Public Health,20627
+PBH,303,Public Health,20628
+PBH,303,Public Health,20629
+PBH,376,Public Health,20630
+PBH,376,Public Health,20631
+ITA,202,Italian Studies,20632
+ITA,202,Italian Studies,20633
+WGS,415,"Women's, Gender and Sexuality",20634
+STS,376,"Science, Tech and Society",20635
+HIS,377,History,20636
+PBH,380,Public Health,20637
+GOV,380,Government,20639
+PBH,380,Public Health,20640
+GOV,380,Government,20641
+STS,376,"Science, Tech and Society",20642
+ECO,272,Economics,20643
+STS,376,"Science, Tech and Society",20644
+STS,377,"Science, Tech and Society",20645
+PHI,382,Philosophy,20646
+INT,375,Interdepartmental,20649
+ECO,374,Economics,20650
+ECO,375,Economics,20651
+MAT,323,Mathematics,20652
+MAT,374,Mathematics,20653
+ENG,210,English,20654
+ENG,255,English,20655
+PHI,375,Philosophy,20656
+WGS,375,"Women's, Gender and Sexuality",20657
+PHI,100,Philosophy,20658
+PHI,244,Philosophy,20659
+CNX,282,Connections,20660
+ENE,278,Earth and Environment,20661
+STS,278,"Science, Tech and Society",20662
+FLM,270,Film and Media,20663
+IST,270,International Studies,20664
+CNX,201,Connections,20665
+RST,111,Religious Studies,20666
+RST,203,Religious Studies,20667
+AMS,203,American Studies,20668
+CNX,199,Connections,20670
+PSY,312,Psychology,20671
+CNX,260,Connections,20672
+CNX,213,Connections,20673
+LAT,372,Latin,20674
+MUS,155,Music,20675
+MUS,155,Music,20676
+CNX,268,Connections,20677
+CNX,225,Connections,20678
+PBH,279,Public Health,20679
+WGS,279,"Women's, Gender and Sexuality",20680
+CNX,202,Connections,20681
+BIO,331,Biology,20682
+ENG,262,English,20683
+MAT,430,Mathematics,20685
+NSP,256,Natural Science in Perspective,20686
+PSY,350,Psychology,20687
+ART,253,Art and Art History,20688
+BOS,253,"Business, Orgs and Society",20689
+CPS,340,Computer Science,20690
+RST,251,Religious Studies,20691
+WGS,251,"Women's, Gender and Sexuality",20692
+AMS,246,American Studies,20693
+HIS,246,History,20694
+ANT,254,Anthropology,20695
+CNX,298,Connections,20696
+NSP,270,Natural Science in Perspective,20697
+SPA,325,Spanish,20698
+WGS,246,"Women's, Gender and Sexuality",20699
+CNX,273,Connections,20700
+BIO,376,Biology,20701
+INT,480,Interdepartmental,20702
+INT,480,Interdepartmental,20703
+MUS,150,Music,20704
+PHY,344,Physics,20705
+MAT,316,Mathematics,20706
+MUS,470,Music,20707
+ECO,200,Economics,20708
+ENG,316,English,20713
+AFS,316,Africana Studies,20714
+AMS,316,American Studies,20715
+INT,481,Interdepartmental,20716
+INT,481,Interdepartmental,20717
