@@ -32,8 +32,11 @@ def search_selection():
 			return render_template('course_search_prof.html')
 		elif (search_type == "subj_prof"):
 			return render_template('course_search_subj_prof.html')
-		else:
+		elif (search_type == "requirement"):
 			return render_template('course_search_requirement.html')
+		else:
+			return render_template('course_search_module.html')
+
 
 @app.route('/search_course', methods = ('GET', 'POST'))
 def search_course_subj():
@@ -127,6 +130,19 @@ def search_course_req():
 		courses = cursor.fetchall()
 
 		return render_template('course_search_requirement.html', courses = courses)
+
+@app.route('/search_course_module', methods = ('GET', 'POST'))
+def search_course_mod():
+	if request.method == "POST":
+		mod = request.form.get('module')
+		print(mod)
+		courses = None
+		cursor = conn.cursor()
+		query = "SELECT * FROM course_schedule_sp_2021 C where C.module = %s"
+		cursor.execute(query, (mod))
+		courses = cursor.fetchall()
+		cursor.close()
+		return render_template('course_search_module.html', courses = courses)
 
 if __name__ == "__main__":
 	app.run('127.0.0.1', 5004, debug = True)
