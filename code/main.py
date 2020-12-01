@@ -83,20 +83,20 @@ def search_course_subj_prof():
 	cursor = conn.cursor()
 	courses = None
 	if num == "" and first == "":
-		query = "SELECT * FROM course_schedule_sp_2021 C where C.subject = %s and C.instr_last = %s"
+		query = "SELECT distinct C.* FROM course_schedule_sp_2021 C, departments D, instructors I where C.crn = D.crn and C.crn = I.crn and D.deptid = %s and I.last = %s"
 		cursor.execute(query, (subj, last))
 		courses = cursor.fetchall()
 	else:
 		if num == "":
-			query = "SELECT * FROM course_schedule_sp_2021 C where C.subject = %s and C.instr_last = %s and C.instr_first = %s"
+			query = "SELECT distinct C.* FROM course_schedule_sp_2021 C, departments D, instructors I where C.crn = D.crn and C.crn = I.crn and D.deptid = %s and I.last = %s and I.first = %s"
 			cursor.execute(query, (subj, last, first))
 			courses = cursor.fetchall()
 		elif first == "":
-			query = "SELECT * FROM course_schedule_sp_2021 C where C.subject = %s and C.instr_last = %s and C.course_num = %s"
+			query = "SELECT distinct C.* FROM course_schedule_sp_2021 C, departments D, instructors I where C.crn = D.crn and C.crn = I.crn and D.deptid = %s and I.last = %s and D.coursenum = %s"
 			cursor.execute(query, (subj, last, num))
 			courses = cursor.fetchall()
 		else:
-			query = "SELECT * FROM course_schedule_sp_2021 C where C.subject = %s and C.course_num = %s and C.instr_last = %s and C.instr_first = %s"
+			query = "SELECT distinct C.* FROM course_schedule_sp_2021 C, departments D, instructors I where C.crn = D.crn and C.crn = I.crn and D.deptid = %s and D.coursenum = %s and I.last = %s  and I.first = %s"
 			cursor.execute(query, (subj, num, last, first))
 			courses = cursor.fetchall()
 	cursor.close()
